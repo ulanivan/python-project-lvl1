@@ -21,6 +21,6 @@ jobs:
           python-version: 3.9
       - uses: Gr1N/setup-poetry@v4
         with:
-          poetry-version: "env use"
+          poetry-version: 1.1.6
       - run: poetry --version
       - run: make lint
