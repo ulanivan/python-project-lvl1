@@ -23,3 +23,5 @@ jobs:
         with:
           poetry-version: 1.0.0
       - run: poetry --version
+      - name: Check linter
+      - run: make lint
