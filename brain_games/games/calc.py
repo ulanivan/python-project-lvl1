@@ -11,7 +11,7 @@ def get_random_sym():
 
 
 def get_question():
-    return str(randint(0, 10)) + " {} ".format(get_random_sym()) + str(randint(0, 10))
+    return str(randint(0, 100)) + " {} ".format(get_random_sym()) + str(randint(0, 100))
 
 
 def get_correct_answer(question):
