@@ -1,8 +1,9 @@
 [tool.poetry]
 name = "hexlet-code"
 version = "0.1.0"
-description = ""
+description = "Cli logic game"
 authors = ["Ivan Ulanovich <i.ulanovich@examus.net>"]
+repository = "https://github.com/ulanivan/python-project-lvl1"
 packages = [
   { include = "brain_games" },
 ]
