@@ -2,6 +2,7 @@ import prompt
 
 LAST_STEP = 3
 EXIT_GAME = 10
+YOU_LOSE_STRING = "'{}' is wrong answer ;(. Correct answer was '{}'. Let's try again, {}!"
 
 
 def start(get_question, get_correct_answer, description):
@@ -21,7 +22,7 @@ def start(get_question, get_correct_answer, description):
             print("Correct!")
         else:
             count = EXIT_GAME
-            print("'{}' is wrong answer ;(. Correct answer was '{}'. Let's try again, {}!".format(answer, correct_answer, user_name))
+            print(YOU_LOSE_STRING.format(answer, correct_answer, user_name))
 
     if count == LAST_STEP:
         print("Congratulations, {}!".format(user_name))
