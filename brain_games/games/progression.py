@@ -3,7 +3,7 @@ from random import randint
 
 
 GAME_DESCRIPTION = 'What number is missing in the progression?'
-PROGRESSION_LENGTH = 10
+PROGRESSION_LENGTH = 12
 
 
 def get_question():
