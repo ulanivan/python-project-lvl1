@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 import prompt
 
+
 def main():
     print("Welcome to the Brain Games!")
     user_name = prompt.string('May I have your name? ')
