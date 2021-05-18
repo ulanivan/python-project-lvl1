@@ -4,7 +4,7 @@ from math import sqrt
 from itertools import count, islice
 
 
-GAME_DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+DESCRIPTION = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(n):
@@ -20,4 +20,4 @@ def get_correct_answer(num):
 
 
 def run_game():
-    core.start(get_question, get_correct_answer, GAME_DESCRIPTION)
+    core.start(get_question, get_correct_answer, DESCRIPTION)
